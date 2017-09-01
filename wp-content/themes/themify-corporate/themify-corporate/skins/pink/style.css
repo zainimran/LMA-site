@@ -1,0 +1,91 @@
+/*  
+Skin Name: Pink
+Version: 1.0
+Description: Skin for Corporate
+*/
+
+a,
+.commentlist .bypostauthor > .comment-author cite:before,
+.commentwrap .pagenav a,
+.widget a,
+.woocommerce .cart-collaterals .shipping_calculator h2 a,
+.woocommerce-page .cart-collaterals .shipping_calculator h2 a,
+.woocommerce ul.products li.product .price,
+.woocommerce-page ul.products li.product .price {
+	color: #e33b9e;
+}
+.featured-area,
+.pagenav a,
+.pagenav span,
+.pagenav .prev,
+.pagenav .next,
+.pagenav a:not(.page-numbers),
+.post-date,
+.commentlist .comment-reply-link:hover,
+#footerwrap,
+.woocommerce span.onsale,
+.woocommerce-page span.onsale,
+#main-nav li:hover a.wpmenucart-contents {
+	background: #e33b9e;
+}
+
+.woocommerce .woocommerce-info:before,
+.woocommerce-page .woocommerce-info:before {
+	background-color: #e33b9e;
+}
+
+.commentlist .comment-reply-link,
+.woocommerce #content input.button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce-page #content input.button,
+.woocommerce-page #respond input#submit,
+.woocommerce-page a.button,
+.woocommerce-page button.button,
+.woocommerce-page input.button
+.woocommerce #content input.button.alt,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce-page #content input.button.alt,
+.woocommerce-page #respond input#submit.alt,
+.woocommerce-page a.button.alt,
+.woocommerce-page button.button.alt,
+.woocommerce-page input.button.alt,
+#main-nav a.wpmenucart-contents {
+	border-color: #e33b9e;
+	color: #e33b9e;
+}
+
+.woocommerce .woocommerce-info,
+.woocommerce-page .woocommerce-info {
+	border-color: #e33b9e;
+}
+
+.pagenav .prev:after,
+.pagenav a:not(.page-numbers):first-child:after {
+	border-right-color: #e33b9e;
+}
+.pagenav .prev:hover:after,
+.pagenav a:not(.page-numbers):first-child:hover:after {
+	border-right-color: #b02e7a;
+}
+.pagenav .next:after,
+.pagenav a:not(.page-numbers):last-child:after {
+	border-left-color: #e33b9e;
+}
+.pagenav .next:hover:after,
+.pagenav a:not(.page-numbers):last-child:hover:after {
+	border-left-color: #b02e7a;
+}
+.pagenav a:hover, .pagenav a.current, .pagenav span {
+	background: #b02e7a !important;
+}
+
+#footerwrap,
+#footerwrap a {
+	color: #eee;
+}

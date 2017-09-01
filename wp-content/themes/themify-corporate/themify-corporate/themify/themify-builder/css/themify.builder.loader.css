@@ -1,0 +1,86 @@
+/* Themify Builder Loader - Styles before Builder is loaded */
+
+/* top admin bar icon */
+.themify_builder_front_icon {
+	background: url('../img/favicon.png') 0 0 no-repeat;
+	display: block;
+	float: left;
+	height: 16px !important;
+	margin-right: 5px !important;
+	margin-top: 5px !important;
+	width: 16px !important;
+}
+
+/* Hide Builder links in dropdown */
+#wp-admin-bar-themify_builder-default li {
+	display: none;
+}
+
+/* Display only the first dropdown link to enable Builder */
+#wp-admin-bar-themify_builder-default li:first-child {
+	display: block;
+}
+
+/* Hide Panel en Front End */
+.themify_builder_front_panel {
+	display: none;
+}
+
+/**
+ * (C)Leanest CSS spinner ever
+ */
+
+@keyframes spin {
+	to { transform: rotate(1turn); }
+}
+
+#builder_progress {
+	position: relative;
+	display: inline-block;
+	width: 5em;
+	height: 5em;
+	margin: 0 .5em;
+	top: 4px;
+	left: 5px;
+	overflow: hidden;
+	-webkit-animation: spin 1s infinite steps(8);
+	animation: spin 1s infinite steps(8);
+}
+#builder_progress, #builder_progress div {
+	font: 4px/300% Arial, Helvetica, sans-serif !important;
+}
+
+#builder_progress:before,
+#builder_progress:after,
+#builder_progress > div:before,
+#builder_progress > div:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 2.25em; /* (container width - part width)/2  */
+	width: .5em;
+	height: 1.5em;
+	border-radius: .2em;
+	background: #eee;
+	box-shadow: 0 3.5em #eee; /* container height - part height */
+	transform-origin: 50% 2.5em; /* container height / 2 */
+}
+
+#builder_progress:before {
+	background: #555;
+}
+
+#builder_progress:after {
+	transform: rotate(-45deg);
+	background: #777;
+}
+
+#builder_progress > div:before {
+	transform: rotate(-90deg);
+	background: #999;
+}
+
+#builder_progress > div:after {
+	transform: rotate(-135deg);
+	background: #bbb;
+}

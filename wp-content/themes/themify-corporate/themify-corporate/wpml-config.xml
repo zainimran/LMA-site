@@ -1,0 +1,105 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="ignore">layout</custom-field>
+		<custom-field action="ignore">content_width</custom-field>
+		<custom-field action="ignore">post_image</custom-field>
+		<custom-field action="ignore">feature_size</custom-field>
+		<custom-field action="ignore">hide_post_title</custom-field>
+		<custom-field action="ignore">unlink_post_title</custom-field>
+		<custom-field action="ignore">hide_meta_multi</custom-field>
+		<custom-field action="ignore">hide_post_date</custom-field>
+		<custom-field action="ignore">hide_post_image</custom-field>
+		<custom-field action="ignore">unlink_post_image</custom-field>
+		<custom-field action="ignore">video_url</custom-field>
+		<custom-field action="ignore">external_link</custom-field>
+		<custom-field action="ignore">multi_lightbox_link</custom-field>
+		<custom-field action="ignore">page_layout</custom-field>
+		<custom-field action="ignore">hide_page_title</custom-field>
+		<custom-field action="ignore">custom_menu</custom-field>
+		<custom-field action="ignore">_separator_background</custom-field>
+		<custom-field action="ignore">header_wrap</custom-field>
+		<custom-field action="ignore">background_color</custom-field>
+		<custom-field action="ignore">background_image</custom-field>
+		<custom-field action="ignore">background_repeat</custom-field>
+		<custom-field action="ignore">headerwrap_text_color</custom-field>
+		<custom-field action="ignore">headerwrap_link_color</custom-field>
+		<custom-field action="ignore">_query_posts_notice</custom-field>
+		<custom-field action="ignore">query_category</custom-field>
+		<custom-field action="ignore">order</custom-field>
+		<custom-field action="ignore">orderby</custom-field>
+		<custom-field action="ignore">layout</custom-field>
+		<custom-field action="ignore">posts_per_page</custom-field>
+		<custom-field action="ignore">display_content</custom-field>
+		<custom-field action="ignore">feature_size_page</custom-field>
+		<custom-field action="ignore">hide_title</custom-field>
+		<custom-field action="ignore">unlink_title</custom-field>
+		<custom-field action="ignore">hide_date</custom-field>
+		<custom-field action="ignore">hide_image</custom-field>
+		<custom-field action="ignore">unlink_image</custom-field>
+		<custom-field action="ignore">hide_navigation</custom-field>
+		<custom-field action="ignore">portfolio_query_category</custom-field>
+		<custom-field action="ignore">portfolio_order</custom-field>
+		<custom-field action="ignore">portfolio_orderby</custom-field>
+		<custom-field action="ignore">portfolio_layout</custom-field>
+		<custom-field action="ignore">portfolio_posts_per_page</custom-field>
+		<custom-field action="ignore">portfolio_display_content</custom-field>
+		<custom-field action="ignore">portfolio_feature_size_page</custom-field>
+		<custom-field action="ignore">_portfolio_image_dimensions</custom-field>
+		<custom-field action="ignore">portfolio_hide_title</custom-field>
+		<custom-field action="ignore">portfolio_unlink_title</custom-field>
+		<custom-field action="ignore">portfolio_hide_date</custom-field>
+		<custom-field action="ignore">portfolio_hide_meta_all</custom-field>
+		<custom-field action="ignore">portfolio_hide_image</custom-field>
+		<custom-field action="ignore">portfolio_unlink_image</custom-field>
+		<custom-field action="ignore">portfolio_hide_navigation</custom-field>
+		<custom-field action="ignore">hide_post_meta</custom-field>
+		<custom-field action="ignore">post_id_info</custom-field>
+		<custom-field action="ignore">background_repeat</custom-field>
+		<custom-field action="ignore">separator_background</custom-field>
+		<custom-field action="ignore">featured_area_background_color</custom-field>
+		<custom-field action="ignore">featured_area_background_image</custom-field>
+		<custom-field action="ignore">featured_area_background_repeat</custom-field>
+		<custom-field action="ignore">featured_area_text_color</custom-field>
+		<custom-field action="ignore">featured_area_link_color</custom-field>
+		<custom-field action="ignore">team_title</custom-field>
+		<custom-field action="ignore">skills</custom-field>
+		<custom-field action="ignore">social</custom-field>
+		<custom-field action="ignore">post_id_info</custom-field>
+		<custom-field action="ignore">testimonial_name</custom-field>
+		<custom-field action="ignore">testimonial_title</custom-field>
+		<custom-field action="ignore">post_id_info</custom-field>
+
+		<custom-field action="ignore">image_dimensions</custom-field>
+		<custom-field action="ignore">image_width</custom-field>
+		<custom-field action="ignore">image_height</custom-field>
+		<custom-field action="ignore">hide_meta_multi</custom-field>
+		<custom-field action="ignore">hide_meta_all</custom-field>
+		<custom-field action="ignore">hide_meta_author</custom-field>
+		<custom-field action="ignore">hide_meta_category</custom-field>
+		<custom-field action="ignore">hide_meta_comment</custom-field>
+		<custom-field action="ignore">hide_meta_tag</custom-field>
+		<custom-field action="ignore">iframe_url</custom-field>
+		<custom-field action="ignore">lightbox_link</custom-field>
+	</custom-fields>
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">highlight</custom-type>
+		<custom-type translate="1">team</custom-type>
+		<custom-type translate="1">testimonial</custom-type>
+		<custom-type translate="1">slider</custom-type>
+	</custom-types>    
+	<taxonomies>
+		<taxonomy translate="1">portfolio-category</taxonomy>
+		<taxonomy translate="1">highlight-category</taxonomy>
+		<taxonomy translate="1">team-category</taxonomy>
+		<taxonomy translate="1">testimonial-category</taxonomy>
+		<taxonomy translate="1">slider-category</taxonomy>
+	</taxonomies>    
+	<admin-texts>
+		<key name="themify_data">
+			<key name="setting-header_html" />
+			<key name="setting-footer_html" />
+			<key name="setting-default_more_text" />
+		</key>
+	</admin-texts>
+</wpml-config>
